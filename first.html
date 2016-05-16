@@ -1,0 +1,350 @@
+<!--
+  Bootstrap example
+  Name: first.html
+  Author: Praveen
+  Last modified: 16th may 2016
+
+ -->
+<!Doctype html>
+<html>
+   <head>
+      <title>
+         Explore the World
+      </title>
+      <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- External stylesheets  -->
+
+      <link rel="stylesheet" href="css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+      <link rel="stylesheet" href="css/bootstrap-glyphicons.css"/>
+      <link rel="stylesheet" href="css/style.css"/>
+
+
+         <script src="js/modernizr-2.6.2.min.js"></script>
+
+
+   </head>
+   <body>
+
+
+<!-- Navigation bar-->
+    <nav class="navbar navbar-inverse">
+    <div class="container_fluid">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav navbar">
+        <li><h1><em>Explore the world</em></h1></li>
+
+
+        </ul>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#"> About Us</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Places<strong class="caret"></strong></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Delhi</a></li>
+              <li><a href="#">Goa</a></li>
+              <li><a href="#">Bangalore</a></li>
+              <li class="divider dropdown-header"></li>
+              <li class="dropdown-header">Outside India</li>
+              <li><a href="#">London</a></li>
+              <li><a href="#">Sydney</a></li>
+              <li><a href="#">New York</a></li>
+            </ul>
+          </li>
+          <li><a href="#"> Food</a></li>
+          <li><a href="#"> Our Partners</a></li>
+          <li><a href="#"> Contact us</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- adding carousel-->
+<div id="myCarousel" class="carousel slide hero-unit" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active  ">
+        <img src="images/img1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1>Hi, there!</h1>
+          <h2>Tourism is the act of travel for predominantly recreational or leisure purposes, and also refers to the provision of services in support of this act.
+          <a href="#" class="btn btn-primary">Learn more>></a></h2>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/img5.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1>Hi, there!</h1>
+          <h2>Tourism is the act of travel for predominantly recreational or leisure purposes, and also refers to the provision of services in support of this act.
+          <a href="#" class="btn btn-primary">Learn more>></a></h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/img3.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1>Hi, there!</h1>
+          <h2>Tourism is the act of travel for predominantly recreational or leisure purposes, and also refers to the provision of services in support of this act.
+          <a href="#" class="btn btn-primary">Learn more>></a></h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/img4.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1>Hi, there!</h1>
+          <h2>Tourism is the act of travel for predominantly recreational or leisure purposes, and also refers to the provision of services in support of this act.
+          <a href="#" class="btn btn-primary">Learn more>></a></h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/img2.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h1>Hi, there!</h1>
+          <h2>Tourism is the act of travel for predominantly recreational or leisure purposes, and also refers to the provision of services in support of this act.
+          <a href="#" class="btn btn-primary">Learn more>></a></h2>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div><!--End Carousel -->
+<!-- Main Content -->
+<div class="container">
+<div id="bigCallout" class="row">
+  <div class="col-12">
+  <div class="well well-small visible-xs hidden-sm">
+    <a href="#" class="btn btn-large btn-primary btn-block btn-default">
+      <strong>Click here to Login</strong></a>
+      <a href="#" class="btn btn-large btn-primary btn-block btn-default">
+        <strong>Click here to Join</strong></a>
+  </div>
+  <div class="well-small hidden-xs">
+    <div class="page-header">
+      <h1>What we do?</h1>
+      <p class="lead"> Tourism as an industry has been travelling with the wild pace of technological advancements and aboard are people from
+        different places and cultures interacting with increasing ease….since, the globe had been shrunk into a village.
+        Unlike our predecessors, we can affordably and in a shorter time travel across the world in large numbers comparatively safe.
+
+      </p>
+      <a href="#" class="btn  btn-large btn-primary"><h4>Click here to Login</h4></a>
+      <a href="#" class="btn btn-link btn-large"><h4>Click here to Join</h4></a>
+
+    </div>
+  </div>
+</div>
+</div><!--End of callout -->
+
+<div class="container">
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+        <h1 class="main-header">Food we offer</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active  ">
+              <img src="images/imgf3.jpg" class="img-responsive" alt="Image">
+            </div>
+
+            <div class="item  ">
+              <img src="images/imgf2.jpg" class="img-responsive" alt="Image">
+
+            </div>
+            <div class="item  ">
+              <img src="images/imgf1.jpg" class="img-responsive" alt="Image">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+
+
+      <h3>For food lovers</h3>
+      <p>The food was fabulous especially the appetizers and the checken was cooked to perfection , the sevice was excellent ,
+         my table was ready for me as soon as I arrived , also the waiters were very attentive and the ambiance was cozy and relaxing ,
+         I can not wait to go back again .
+      </p>
+      <p><a href="#" class="btn btn-primary ">Read more..</a></p>
+    </div>
+    <div class="col-sm-4">
+
+      <h1 class="main-header">Places to Visit</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/imgp3.jpg" class="img-responsive" alt="Image">
+            </div>
+
+            <div class="item">
+              <img src="images/imgp2.jpg" class="img-responsive" alt="Image">
+
+            </div>
+            <div class="item">
+              <img src="images/imgp1.jpg" class="img-responsive" alt="Image">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+
+      <h3>For travelers</h3>
+      <p>Tourism in India is economically important and is growing rapidly.
+         The World Travel & Tourism Council calculated that tourism generated
+         8.31 lakh crore (US$120 billion) or 6.3% of the nation's GDP in 2015 and supported 37.315 million jobs,
+         8.7% of its total employment. The sector is predicted to grow at an average annual rate of 7.5% to
+         18.36 lakh crore (US$270 billion) by 2025 (7.2% of GDP).[1] In October 2015.
+      </p>
+      <p><a href="#" class="btn btn-primary ">Read more..</a></p>
+    </div>
+    <div class="col-sm-4">
+
+      <h1 class="main-header">Our Partners</h1>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/imgc1.jpg" class="img-responsive" alt="Image">
+            </div>
+
+            <div class="item">
+              <img src="images/imgc2.png" class="img-responsive" alt="Image">
+
+            </div>
+            <div class="item">
+              <img src="images/imgc3.jpg" class="img-responsive" alt="Image">
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+      </div>
+
+      <h3>We work with</h3>
+      <p>Many of the provisions of the Partnership Act are subject to the contrary agreement of the partners, - partners have a wide discretion
+        to decide between themselves the terms of their relationship and may agree to adopt
+         different rules than those specified in the Partnership Act (but not so far as their relations with the outside world are concerned).
+      </p>
+      <p><a href="#" class="btn btn-primary  ">Read more..</a></p>
+    </div>
+  </div>
+</div><br>
+
+    <div class="clearfix"></div>
+         <footer>
+           <div class="container">
+             <div class="col-12">
+     					<div class="col-sm-2">
+     					<h4>Copyright &copy; 2013 {Explore the world}</h4>
+     					</div><!-- end col-sm-2 -->
+
+     					<div class="col-sm-4">
+     						<h4>About Us</h4>
+     						<p>Tourism in India is economically important and is growing rapidly.
+                   The World Travel & Tourism Council calculated that tourism generated
+                   8.31 lakh crore (US$120 billion) or 6.3% of the nation's GDP in 2015.</p>
+     					</div><!-- end col-sm-4 -->
+
+
+
+     					<div class="col-sm-4">
+     						<h4>Follow Us</h4>
+                <a href="http://facebook.com" ><img src="images/fb.png" height="30px" width="30px"/></a>
+                <a href="http://twitter.com"><img src="images/twitter.png" height="30px" width="30px"/></a>
+                <a href="http://youtube.com"><img src="images/you.png" height="30px" width="30px"/></a>
+                <a href="http://linkedin.com"><img src="images/link.png" height="30px" width="30px"/></a>
+     					</div><!-- end col-sm-2 -->
+
+     					<div class="col-sm-2">
+     						<h4>Coded with <span class="glyphicon glyphicon-heart"></span> by Praveen</h4>
+     					</div><!-- end col-sm-2 -->
+            </div>
+     			</div><!-- end container -->
+
+
+         </footer>
+         <!--  Footer content end-->
+
+  <script src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>

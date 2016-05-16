@@ -1,0 +1,85 @@
+/*
+	 Customized css file
+	 Author: Praveen
+	 Last modified: 13th may 2016
+
+*/
+
+/* Applying styles for menu bar  */
+nav li{
+	padding:5px;
+	font-size: 18px;
+}
+/* Header styles  */
+nav h1{
+	margin: 0;
+	padding-left: 10px;
+	color: white;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;
+	font-size: 30px;
+	line-height: 1;
+	text-transform: uppercase;
+	text-shadow: 0 2px blue, 0 3px #777;
+}
+
+/* Headings of grids  */
+.main-header{
+	font-size: 30px;
+}
+
+
+/* Content layout  */
+.main{
+	margin-top:20px;
+}
+
+/* Footer Layout  */
+footer{
+	padding-left: : 20px;
+	margin-top: 50px;
+	float: right;
+	background: #333;
+	color: #eee;
+}
+
+
+
+/* Text alignment of paragraph  */
+p{
+	text-align: justify;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.hero-unit{
+	padding-top: 10px;
+}
+
+.carousel-inner img {
+	width: 100%; /* Set width to 100% */
+	min-height:183px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+	display: none;
+}
+}
+/* decrease title size when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+	nav h1{
+		margin: 0;
+		color: white;
+		font-weight: normal;
+		font-family: 'Ultra', sans-serif;
+		font-size: 30px;
+		line-height: 1;
+		text-transform: uppercase;
+		text-shadow: 0 2px blue, 0 3px #777;
+	}
+}
